@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+backups/
+postgres/
+data/
+*.dump
+*.sql
+config/realm/*.json
+config/realm/*.zip
+.DS_Store
+Thumbs.db
