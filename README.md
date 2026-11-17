@@ -8,6 +8,21 @@ A local identity and access management lab for the SecureBank-X banking applicat
 
 https://github.com/user-attachments/assets/a52a308b-d70e-4843-8cbb-523de0fe5856
 
+## What is IAM?
+
+**Identity and Access Management (IAM)** is a set of processes and technologies
+used to manage digital identities and control access to systems and resources.
+It helps answer two key questions:
+
+- **Authentication:** Who are you?
+- **Authorization:** What are you allowed to access or do?
+
+In SecureBank-X, **Keycloak** provides the identity service for the local
+development environment. It supports user authentication and can be configured
+with roles, groups, multi-factor authentication (MFA), and OpenID Connect (OIDC)
+clients. The banking backend remains responsible for enforcing access to accounts
+and transactions.
+
 ## Features
 
 - Keycloak identity provider with OIDC support.
