@@ -34,7 +34,7 @@ flowchart LR
 ## Quick deployment
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/securebank-x-iam.git
+git clone https://github.com/riad67/securebank-x-iam.git
 cd securebank-x-iam
 chmod +x scripts/*.sh
 ./scripts/setup.sh
